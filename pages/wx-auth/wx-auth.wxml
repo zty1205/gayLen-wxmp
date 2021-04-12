@@ -1,0 +1,28 @@
+<!--pages/wx-auth/wx-auth.wxml-->
+<view class="page">
+  <view class="title">基础</view>
+  <block>
+    <button bindtap="login">登录</button>
+  </block>
+  <view class="title">api直接调用</view>
+  <block>
+    <button class="authorize-button" bindtap="userLocation">地理位置userLocation</button>
+    <button class="authorize-button" bindtap="userLocationBackground">后台定位userLocationBackground</button>
+    <button class="authorize-button" bindtap="address">收货地址address</button>
+    <button class="authorize-button" bindtap="invoiceTitle">发票抬头invoiceTitle</button>
+    <button class="authorize-button" bindtap="invoice">发票invoice</button>
+    <button class="authorize-button" bindtap="werun">微信运动步数werun</button>
+    <button class="authorize-button" bindtap="record">录音功能record</button>
+    <button class="authorize-button" bindtap="writePhotosAlbum">保存到相册writePhotosAlbum</button>
+    <button class="authorize-button" bindtap="camera">摄像头camera</button>
+  </block>
+  <view class="title">点击调用</view>
+  <block>
+    <button class="authorize-button" bindtap="getUserProfile">获取getUserProfile</button>
+  </block>
+  <view class="title">open-type调用</view>
+  <block>
+    <button class="authorize-button" bindgetuserinfo="getUserInfo" open-type="getUserInfo">获取getUserInfo</button>
+    <button class="authorize-button" bindgetphonenumber="getPhoneNumber" open-type="getPhoneNumber">获取手机号</button>
+  </block>
+</view>
