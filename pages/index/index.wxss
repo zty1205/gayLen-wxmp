@@ -17,3 +17,13 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.phone-btn {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  background: transparent;
+}

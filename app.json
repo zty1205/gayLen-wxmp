@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/wx-auth/wx-auth"
+    "pages/wx-auth/wx-auth",
+    "pages/special-comp/special-comp",
+    "pages/media/media"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,6 +18,8 @@
       "desc": "你的位置信息将用于小程序位置接口的效果展示2"
     }
   },
-  "requiredBackgroundModes": ["location"],
+  "requiredBackgroundModes": [
+    "location"
+  ],
   "sitemapLocation": "sitemap.json"
 }

@@ -63,6 +63,19 @@
         {
           "name": "pages/wx-auth/wx-auth",
           "pathName": "pages/wx-auth/wx-auth",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/special-comp/special-comp",
+          "pathName": "pages/special-comp/special-comp",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/media/media",
+          "pathName": "pages/media/media",
+          "query": "",
           "scene": null
         }
       ]
