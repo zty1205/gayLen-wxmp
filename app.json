@@ -1,25 +1,14 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/wx-auth/wx-auth",
-    "pages/special-comp/special-comp",
-    "pages/media/media"
+    "pages/automator/automator"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "MITO",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "permission": {
-    "scope.userLocation": {
-      "desc": "你的位置信息将用于小程序位置接口的效果展示2"
-    }
-  },
-  "requiredBackgroundModes": [
-    "location"
-  ],
   "sitemapLocation": "sitemap.json"
 }

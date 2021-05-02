@@ -77,6 +77,11 @@
           "pathName": "pages/media/media",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/automator/automator",
+          "pathName": "pages/automator/automator",
+          "scene": null
         }
       ]
     }

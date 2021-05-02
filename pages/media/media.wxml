@@ -1,7 +1,0 @@
-<!--pages/media/media.wxml-->
-<view class="page">
-  <view class="title">图片</view>
-  <block>
-<button class="media-button" bindtap="chooseImage">从本地相册选择图片或使用相机拍照。</button>
-  </block>
-</view>

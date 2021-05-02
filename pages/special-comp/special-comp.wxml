@@ -1,5 +1,0 @@
-<!--pages/special-comp/special-comp.wxml-->
-<open-data type="userNickName" lang="zh_CN"></open-data>
-<view class="avatar" >
-  <open-data type="userAvatarUrl" lang="zh_CN"></open-data></view>
-

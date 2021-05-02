@@ -1,29 +1,12 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
-}
-
-.userinfo-avatar {
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: 99px auto;
+  border-radius: 100%;
   overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
 }
 
-.usermotto {
-  margin-top: 200px;
-}
-
-.phone-btn {
-  width: 100vw !important;
-  height: 100vh !important;
-  position: absolute;
-  z-index: 9999;
-  left: 0;
-  top: 0;
-  background: transparent;
+.nick-name {
+  width: 100%;
+  text-align: center;
 }

@@ -1,7 +1,0 @@
-/* pages/special-comp/special-comp.wxss */
-.avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  overflow: hidden;
-}
